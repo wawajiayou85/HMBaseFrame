@@ -16,6 +16,17 @@
 		B305D4271C0C4F780010DA7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B305D4251C0C4F780010DA7C /* LaunchScreen.storyboard */; };
 		B305D4321C0C4F780010DA7C /* HMBaseFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B305D4311C0C4F780010DA7C /* HMBaseFrameTests.m */; };
 		B305D43D1C0C4F780010DA7C /* HMBaseFrameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B305D43C1C0C4F780010DA7C /* HMBaseFrameUITests.m */; };
+		B334A5141C0D9A7C00C52AC7 /* HMTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B334A5131C0D9A7C00C52AC7 /* HMTools.m */; };
+		B334A51D1C0E887500C52AC7 /* HMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B334A51C1C0E887500C52AC7 /* HMBaseViewController.m */; };
+		B334A5601C1124E700C52AC7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B334A55F1C1124E700C52AC7 /* Security.framework */; };
+		B334A5621C1124F000C52AC7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B334A5611C1124F000C52AC7 /* CoreTelephony.framework */; };
+		B334A5641C1124FA00C52AC7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B334A5631C1124FA00C52AC7 /* SystemConfiguration.framework */; };
+		B334A5661C11250200C52AC7 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B334A5651C11250200C52AC7 /* libz.tbd */; };
+		B334A5681C11250B00C52AC7 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B334A5671C11250B00C52AC7 /* libsqlite3.0.tbd */; };
+		B334A56A1C11251400C52AC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B334A5691C11251400C52AC7 /* UIKit.framework */; };
+		B334A56C1C11251A00C52AC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B334A56B1C11251A00C52AC7 /* Foundation.framework */; };
+		B3CC687F1C112A2A00448FFA /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CC687B1C112A2A00448FFA /* libWeChatSDK.a */; };
+		B3CC68811C112A5A00448FFA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CC68801C112A5A00448FFA /* libc++.tbd */; };
 		BFEBAE1E27F099F78983BA46 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C385E82CF124D6421C01BC89 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +67,22 @@
 		B305D4381C0C4F780010DA7C /* HMBaseFrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMBaseFrameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B305D43C1C0C4F780010DA7C /* HMBaseFrameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMBaseFrameUITests.m; sourceTree = "<group>"; };
 		B305D43E1C0C4F780010DA7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B334A5121C0D9A7C00C52AC7 /* HMTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTools.h; sourceTree = "<group>"; };
+		B334A5131C0D9A7C00C52AC7 /* HMTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTools.m; sourceTree = "<group>"; };
+		B334A51B1C0E887500C52AC7 /* HMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMBaseViewController.h; sourceTree = "<group>"; };
+		B334A51C1C0E887500C52AC7 /* HMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMBaseViewController.m; sourceTree = "<group>"; };
+		B334A55F1C1124E700C52AC7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B334A5611C1124F000C52AC7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B334A5631C1124FA00C52AC7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B334A5651C11250200C52AC7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B334A5671C11250B00C52AC7 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		B334A5691C11251400C52AC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B334A56B1C11251A00C52AC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3CC687B1C112A2A00448FFA /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		B3CC687C1C112A2A00448FFA /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		B3CC687D1C112A2A00448FFA /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		B3CC687E1C112A2A00448FFA /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		B3CC68801C112A5A00448FFA /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		C385E82CF124D6421C01BC89 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -64,6 +91,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3CC68811C112A5A00448FFA /* libc++.tbd in Frameworks */,
+				B334A56C1C11251A00C52AC7 /* Foundation.framework in Frameworks */,
+				B334A56A1C11251400C52AC7 /* UIKit.framework in Frameworks */,
+				B3CC687F1C112A2A00448FFA /* libWeChatSDK.a in Frameworks */,
+				B334A5681C11250B00C52AC7 /* libsqlite3.0.tbd in Frameworks */,
+				B334A5661C11250200C52AC7 /* libz.tbd in Frameworks */,
+				B334A5641C1124FA00C52AC7 /* SystemConfiguration.framework in Frameworks */,
+				B334A5621C1124F000C52AC7 /* CoreTelephony.framework in Frameworks */,
+				B334A5601C1124E700C52AC7 /* Security.framework in Frameworks */,
 				BFEBAE1E27F099F78983BA46 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,6 +133,14 @@
 		57F47CA78C15A8B346957C27 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B3CC68801C112A5A00448FFA /* libc++.tbd */,
+				B334A56B1C11251A00C52AC7 /* Foundation.framework */,
+				B334A5691C11251400C52AC7 /* UIKit.framework */,
+				B334A5671C11250B00C52AC7 /* libsqlite3.0.tbd */,
+				B334A5651C11250200C52AC7 /* libz.tbd */,
+				B334A5631C1124FA00C52AC7 /* SystemConfiguration.framework */,
+				B334A5611C1124F000C52AC7 /* CoreTelephony.framework */,
+				B334A55F1C1124E700C52AC7 /* Security.framework */,
 				C385E82CF124D6421C01BC89 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -127,6 +171,8 @@
 		B305D4131C0C4F780010DA7C /* HMBaseFrame */ = {
 			isa = PBXGroup;
 			children = (
+				B334A5441C11244F00C52AC7 /* ThirdPart */,
+				B334A5111C0D9A6500C52AC7 /* Tools */,
 				B305D4171C0C4F780010DA7C /* AppDelegate.h */,
 				B305D4181C0C4F780010DA7C /* AppDelegate.m */,
 				B305D41A1C0C4F780010DA7C /* ViewController.h */,
@@ -165,6 +211,36 @@
 				B305D43E1C0C4F780010DA7C /* Info.plist */,
 			);
 			path = HMBaseFrameUITests;
+			sourceTree = "<group>";
+		};
+		B334A5111C0D9A6500C52AC7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				B334A5121C0D9A7C00C52AC7 /* HMTools.h */,
+				B334A5131C0D9A7C00C52AC7 /* HMTools.m */,
+				B334A51B1C0E887500C52AC7 /* HMBaseViewController.h */,
+				B334A51C1C0E887500C52AC7 /* HMBaseViewController.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		B334A5441C11244F00C52AC7 /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				B334A5541C11244F00C52AC7 /* SDKExport */,
+			);
+			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		B334A5541C11244F00C52AC7 /* SDKExport */ = {
+			isa = PBXGroup;
+			children = (
+				B3CC687B1C112A2A00448FFA /* libWeChatSDK.a */,
+				B3CC687C1C112A2A00448FFA /* WechatAuthSDK.h */,
+				B3CC687D1C112A2A00448FFA /* WXApi.h */,
+				B3CC687E1C112A2A00448FFA /* WXApiObject.h */,
+			);
+			path = SDKExport;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,7 +410,9 @@
 			files = (
 				B305D41C1C0C4F780010DA7C /* ViewController.m in Sources */,
 				B305D4191C0C4F780010DA7C /* AppDelegate.m in Sources */,
+				B334A51D1C0E887500C52AC7 /* HMBaseViewController.m in Sources */,
 				B305D4161C0C4F780010DA7C /* main.m in Sources */,
+				B334A5141C0D9A7C00C52AC7 /* HMTools.m in Sources */,
 				B305D4221C0C4F780010DA7C /* HMBaseFrame.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,7 +554,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HMBaseFrame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HMBaseFrame/ThirdPart/SDKExport",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.leo.HMBaseFrame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -488,7 +571,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HMBaseFrame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HMBaseFrame/ThirdPart/SDKExport",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.leo.HMBaseFrame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
