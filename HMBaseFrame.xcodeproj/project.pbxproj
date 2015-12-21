@@ -27,6 +27,7 @@
 		B334A56C1C11251A00C52AC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B334A56B1C11251A00C52AC7 /* Foundation.framework */; };
 		B3CC687F1C112A2A00448FFA /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CC687B1C112A2A00448FFA /* libWeChatSDK.a */; };
 		B3CC68811C112A5A00448FFA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CC68801C112A5A00448FFA /* libc++.tbd */; };
+		B3DE632F1C27CBA70046B93E /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DE632E1C27CBA70046B93E /* test.m */; };
 		BFEBAE1E27F099F78983BA46 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C385E82CF124D6421C01BC89 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +84,8 @@
 		B3CC687D1C112A2A00448FFA /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		B3CC687E1C112A2A00448FFA /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		B3CC68801C112A5A00448FFA /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B3DE632D1C27CBA70046B93E /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		B3DE632E1C27CBA70046B93E /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		C385E82CF124D6421C01BC89 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -183,6 +186,8 @@
 				B305D4281C0C4F780010DA7C /* Info.plist */,
 				B305D4201C0C4F780010DA7C /* HMBaseFrame.xcdatamodeld */,
 				B305D4141C0C4F780010DA7C /* Supporting Files */,
+				B3DE632D1C27CBA70046B93E /* test.h */,
+				B3DE632E1C27CBA70046B93E /* test.m */,
 			);
 			path = HMBaseFrame;
 			sourceTree = "<group>";
@@ -408,6 +413,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3DE632F1C27CBA70046B93E /* test.m in Sources */,
 				B305D41C1C0C4F780010DA7C /* ViewController.m in Sources */,
 				B305D4191C0C4F780010DA7C /* AppDelegate.m in Sources */,
 				B334A51D1C0E887500C52AC7 /* HMBaseViewController.m in Sources */,
